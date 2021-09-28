@@ -1,0 +1,50 @@
+#
+# Executes commands at the start of an interactive session.
+#
+# Authors:
+#   Sorin Ionescu <sorin.ionescu@gmail.com>
+#
+
+# Source Prezto.
+if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
+  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+fi
+
+# Customize to your needs...
+
+### anyenv
+eval "$(anyenv init -)"
+
+### Git
+alias ga='git add'
+alias gc='git commit'
+alias gd='git diff'
+alias gs='git status'
+alias gp='git push'
+alias gb='git branch'
+alias gst='git status'
+alias gsw='git switch'
+alias gf='git fetch'
+
+### GitHub CLI
+alias gpr='gh pr'
+alias gi='gh issue'
+
+### URL
+alias panda='open https://tinypng.com/'
+alias gkai='open "https://www.google.com/?gl=us"'
+alias dc='open https://kikagaku.docbase.io/'
+
+### yarn
+alias ya='yarn add'
+alias yr='yarn remove'
+alias yi='yarn install'
+
+
+### GitHub CLI 補完
+eval "$(gh completion -s zsh)"
+
+export PATH="$HOME/.poetry/bin:$PATH"
+
+### zsh not found
+setopt nonomatch
