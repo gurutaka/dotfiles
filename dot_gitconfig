@@ -1,0 +1,7 @@
+[user]
+	name = Takashi Irita
+	email = irt.tks0311@gmail.com
+[push]
+	default = current
+[init]
+	defaultBranch = main
