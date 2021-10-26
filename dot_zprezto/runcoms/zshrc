@@ -31,20 +31,18 @@ alias gpr='gh pr'
 alias gi='gh issue'
 
 ### URL
-alias panda='open https://tinypng.com/'
-alias gkai='open "https://www.google.com/?gl=us"'
-alias dc='open https://kikagaku.docbase.io/'
+alias gkai='open "https://www.google.com/webhp?gl=us&hl=en&pws=0&gws_rd=cr"'
 
 ### yarn
 alias ya='yarn add'
 alias yr='yarn remove'
 alias yi='yarn install'
 
-
 ### GitHub CLI 補完
 eval "$(gh completion -s zsh)"
 
+### Poetry
 export PATH="$HOME/.poetry/bin:$PATH"
 
-### zsh not found
+### zsh: no matches found
 setopt nonomatch
