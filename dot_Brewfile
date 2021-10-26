@@ -10,7 +10,6 @@ brew "mas"
 brew "python3"
 brew "wget"
 brew "gh"
-brew "chezmoi"
 brew "docker"
 brew "anyenv"
 brew "git"
@@ -37,7 +36,6 @@ cask "unity-hub"
 cask "figma"
 cask "docker"
 cask "sidekick"
-cask "google-chrome"
 
 mas "LINE", id: 539883307
 mas "Xcode", id: 497799835
