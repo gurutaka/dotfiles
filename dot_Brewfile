@@ -13,6 +13,7 @@ brew "docker"
 brew "anyenv"
 brew "git"
 brew "php"
+brew "yarn"
 
 cask "dash"
 cask "alfred"
